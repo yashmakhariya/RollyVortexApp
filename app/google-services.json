@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "501265479539",
+    "firebase_url": "https://rolly-vortex-9b950.firebaseio.com",
+    "project_id": "rolly-vortex-9b950",
+    "storage_bucket": "rolly-vortex-9b950.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501265479539:android:51db8b05506e43c2e93706",
+        "android_client_info": {
+          "package_name": "com.ym.rollyvortex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501265479539-986h8pak4ihocdm05qu681mr9kns36un.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJt3vEhTmQz0n3Ibj36MkIA5zbTfdaTdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501265479539-986h8pak4ihocdm05qu681mr9kns36un.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-2868533415701510~1534284503"
+    }
+  ],
+  "configuration_version": "1"
+}
