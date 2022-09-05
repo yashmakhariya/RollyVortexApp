@@ -3,9 +3,10 @@
     package="com.ym.rollyvortex">
 
 
-    <uses-permission android:name="android.permission.INTERNET" />
+
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    
+    <uses-permission android:name="android.permission.INTERNET" />
+
 
     <application
         android:allowBackup="true"
@@ -20,7 +21,8 @@
             android:value="ca-app-pub-2868533415701510~1534284503"/>
 
         <activity android:name="com.ym.rollyvortex.SplashScreen"
-            android:theme="@style/SplashScreen">
+            android:theme="@style/SplashScreen"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

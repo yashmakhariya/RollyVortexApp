@@ -97,10 +97,10 @@ public class MainActivity extends AppCompatActivity {
 
         WebSettings webSettings = mywebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        mywebView.loadUrl("https://www.hoodamath.com/mobile/games/rolly-vortex/game.html");
+        mywebView.loadUrl("https://doondook.studio/games/new/rolly-vortex");
         mywebView.getSettings().setRenderPriority(WebSettings.RenderPriority.HIGH);
         mywebView.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
-        mywebView.getSettings().setAppCacheEnabled(true);
+
         mywebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
         webSettings.setDomStorageEnabled(true);
         webSettings.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.NARROW_COLUMNS);
@@ -168,12 +168,12 @@ public class MainActivity extends AppCompatActivity {
         NetworkInfo mobileNetwork = connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
 
         if (wifi.isConnected()) {
-            mywebView.loadUrl("https://www.hoodamath.com/mobile/games/rolly-vortex/game.html");
+            mywebView.loadUrl("https://doondook.studio/games/new/rolly-vortex");
             mywebView.setVisibility(View.VISIBLE);
             relativeLayout.setVisibility(View.GONE);
 
         } else if (mobileNetwork.isConnected()) {
-            mywebView.loadUrl("https://www.hoodamath.com/mobile/games/rolly-vortex/game.html");
+            mywebView.loadUrl("https://doondook.studio/games/new/rolly-vortex");
             mywebView.setVisibility(View.VISIBLE);
             relativeLayout.setVisibility(View.GONE);
 
